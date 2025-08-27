@@ -1,1 +1,666 @@
-{"1": {"id": 1, "title": "ATOMIC HABITS", "author": "James Clear", "year": 2016, "genre": ["Non-Fiction", "Self-Help"], "rating": 4.5, "age": 9, "antique": "Not an antique."}, "2": {"id": 2, "title": "THE HUNGER GAMES", "author": "Suzanne Collins", "year": 2007, "genre": ["Adventure", "Fiction", "Fantasy"], "rating": 4.0, "age": 18, "antique": "Not an antique."}, "3": {"id": 3, "title": "THE ALCHEMIST", "author": "Paulo Coelho", "year": 1993, "genre": ["Fiction", "Fantasy"], "rating": 3.7, "age": 32, "antique": "This book is an antique."}}
+{
+    "1": {
+        "id": 1,
+        "title": "ATOMIC HABITS",
+        "author": "James Clear",
+        "year": 2018,
+        "genre": [
+            "Non-Fiction",
+            "Self-Help"
+        ],
+        "rating": 4.5,
+        "age": 7,
+        "antique": "Not an antique."
+    },
+    "2": {
+        "id": 2,
+        "title": "THE HUNGER GAMES",
+        "author": "Suzanne Collins",
+        "year": 2008,
+        "genre": [
+            "Adventure",
+            "Fiction",
+            "Fantasy"
+        ],
+        "rating": 4.0,
+        "age": 17,
+        "antique": "Not an antique."
+    },
+    "3": {
+        "id": 3,
+        "title": "THE ALCHEMIST",
+        "author": "Paulo Coelho",
+        "year": 1988,
+        "genre": [
+            "Fiction",
+            "Fantasy"
+        ],
+        "rating": 3.7,
+        "age": 37,
+        "antique": "This book is an antique."
+    },
+    "4": {
+        "id": 4,
+        "title": "TO KILL A MOCKINGBIRD",
+        "author": "Harper Lee",
+        "year": 1960,
+        "genre": [
+            "Fiction",
+            "Classic"
+        ],
+        "rating": 4.3,
+        "age": 65,
+        "antique": "This book is an antique."
+    },
+    "5": {
+        "id": 5,
+        "title": "1984",
+        "author": "George Orwell",
+        "year": 1949,
+        "genre": [
+            "Dystopian",
+            "Fiction"
+        ],
+        "rating": 4.2,
+        "age": 76,
+        "antique": "This book is an antique."
+    },
+    "6": {
+        "id": 6,
+        "title": "PRIDE AND PREJUDICE",
+        "author": "Jane Austen",
+        "year": 1813,
+        "genre": [
+            "Romance",
+            "Classic"
+        ],
+        "rating": 4.5,
+        "age": 212,
+        "antique": "This book is an antique."
+    },
+    "7": {
+        "id": 7,
+        "title": "THE GREAT GATSBY",
+        "author": "F. Scott Fitzgerald",
+        "year": 1925,
+        "genre": [
+            "Classic",
+            "Fiction"
+        ],
+        "rating": 3.9,
+        "age": 100,
+        "antique": "This book is an antique."
+    },
+    "8": {
+        "id": 8,
+        "title": "HARRY POTTER AND THE SORCERER'S STONE",
+        "author": "J.K. Rowling",
+        "year": 1997,
+        "genre": [
+            "Fantasy",
+            "Fiction"
+        ],
+        "rating": 4.8,
+        "age": 28,
+        "antique": "Not an antique."
+    },
+    "9": {
+        "id": 9,
+        "title": "THE LORD OF THE RINGS",
+        "author": "J.R.R. Tolkien",
+        "year": 1954,
+        "genre": [
+            "Fantasy",
+            "Adventure"
+        ],
+        "rating": 4.7,
+        "age": 71,
+        "antique": "This book is an antique."
+    },
+    "10": {
+        "id": 10,
+        "title": "THE CATCHER IN THE RYE",
+        "author": "J.D. Salinger",
+        "year": 1951,
+        "genre": [
+            "Fiction",
+            "Classic"
+        ],
+        "rating": 3.8,
+        "age": 74,
+        "antique": "This book is an antique."
+    },
+    "11": {
+        "id": 11,
+        "title": "THE DIARY OF A YOUNG GIRL",
+        "author": "Anne Frank",
+        "year": 1947,
+        "genre": [
+            "Biography",
+            "History"
+        ],
+        "rating": 4.6,
+        "age": 78,
+        "antique": "This book is an antique."
+    },
+    "12": {
+        "id": 12,
+        "title": "THE FAULT IN OUR STARS",
+        "author": "John Green",
+        "year": 2012,
+        "genre": [
+            "Romance",
+            "Young Adult"
+        ],
+        "rating": 4.1,
+        "age": 13,
+        "antique": "Not an antique."
+    },
+    "13": {
+        "id": 13,
+        "title": "THE BOOK THIEF",
+        "author": "Markus Zusak",
+        "year": 2005,
+        "genre": [
+            "Historical",
+            "Fiction"
+        ],
+        "rating": 4.4,
+        "age": 20,
+        "antique": "Not an antique."
+    },
+    "14": {
+        "id": 14,
+        "title": "THE DA VINCI CODE",
+        "author": "Dan Brown",
+        "year": 2003,
+        "genre": [
+            "Thriller",
+            "Mystery"
+        ],
+        "rating": 4.0,
+        "age": 22,
+        "antique": "Not an antique."
+    },
+    "15": {
+        "id": 15,
+        "title": "THE SHINING",
+        "author": "Stephen King",
+        "year": 1977,
+        "genre": [
+            "Horror",
+            "Thriller"
+        ],
+        "rating": 4.2,
+        "age": 48,
+        "antique": "This book is an antique."
+    },
+    "16": {
+        "id": 16,
+        "title": "BRAVE NEW WORLD",
+        "author": "Aldous Huxley",
+        "year": 1932,
+        "genre": [
+            "Dystopian",
+            "Science Fiction"
+        ],
+        "rating": 4.0,
+        "age": 93,
+        "antique": "This book is an antique."
+    },
+    "17": {
+        "id": 17,
+        "title": "ANIMAL FARM",
+        "author": "George Orwell",
+        "year": 1945,
+        "genre": [
+            "Political Satire",
+            "Fiction"
+        ],
+        "rating": 4.1,
+        "age": 80,
+        "antique": "This book is an antique."
+    },
+    "18": {
+        "id": 18,
+        "title": "THE KITE RUNNER",
+        "author": "Khaled Hosseini",
+        "year": 2003,
+        "genre": [
+            "Fiction",
+            "Drama"
+        ],
+        "rating": 4.4,
+        "age": 22,
+        "antique": "Not an antique."
+    },
+    "19": {
+        "id": 19,
+        "title": "A GAME OF THRONES",
+        "author": "George R.R. Martin",
+        "year": 1996,
+        "genre": [
+            "Fantasy",
+            "Adventure"
+        ],
+        "rating": 4.7,
+        "age": 29,
+        "antique": "Not an antique."
+    },
+    "20": {
+        "id": 20,
+        "title": "THE GIRL WITH THE DRAGON TATTOO",
+        "author": "Stieg Larsson",
+        "year": 2005,
+        "genre": [
+            "Thriller",
+            "Mystery"
+        ],
+        "rating": 4.1,
+        "age": 20,
+        "antique": "Not an antique."
+    },
+    "21": {
+        "id": 21,
+        "title": "LITTLE WOMEN",
+        "author": "Louisa May Alcott",
+        "year": 1868,
+        "genre": [
+            "Classic",
+            "Romance"
+        ],
+        "rating": 4.3,
+        "age": 157,
+        "antique": "This book is an antique."
+    },
+    "22": {
+        "id": 22,
+        "title": "THE ROAD",
+        "author": "Cormac McCarthy",
+        "year": 2006,
+        "genre": [
+            "Post-Apocalyptic",
+            "Fiction"
+        ],
+        "rating": 4.0,
+        "age": 19,
+        "antique": "Not an antique."
+    },
+    "23": {
+        "id": 23,
+        "title": "MOBY-DICK",
+        "author": "Herman Melville",
+        "year": 1851,
+        "genre": [
+            "Adventure",
+            "Classic"
+        ],
+        "rating": 3.7,
+        "age": 174,
+        "antique": "This book is an antique."
+    },
+    "24": {
+        "id": 24,
+        "title": "WUTHERING HEIGHTS",
+        "author": "Emily Bront\u00eb",
+        "year": 1847,
+        "genre": [
+            "Classic",
+            "Romance"
+        ],
+        "rating": 4.0,
+        "age": 178,
+        "antique": "This book is an antique."
+    },
+    "25": {
+        "id": 25,
+        "title": "FRANKENSTEIN",
+        "author": "Mary Shelley",
+        "year": 1818,
+        "genre": [
+            "Science Fiction",
+            "Horror"
+        ],
+        "rating": 4.2,
+        "age": 207,
+        "antique": "This book is an antique."
+    },
+    "26": {
+        "id": 26,
+        "title": "DRACULA",
+        "author": "Bram Stoker",
+        "year": 1897,
+        "genre": [
+            "Horror",
+            "Classic"
+        ],
+        "rating": 4.0,
+        "age": 128,
+        "antique": "This book is an antique."
+    },
+    "27": {
+        "id": 27,
+        "title": "FAHRENHEIT 451",
+        "author": "Ray Bradbury",
+        "year": 1953,
+        "genre": [
+            "Dystopian",
+            "Science Fiction"
+        ],
+        "rating": 4.1,
+        "age": 72,
+        "antique": "This book is an antique."
+    },
+    "28": {
+        "id": 28,
+        "title": "THE HANDMAID'S TALE",
+        "author": "Margaret Atwood",
+        "year": 1985,
+        "genre": [
+            "Dystopian",
+            "Fiction"
+        ],
+        "rating": 4.3,
+        "age": 40,
+        "antique": "This book is an antique."
+    },
+    "29": {
+        "id": 29,
+        "title": "CRIME AND PUNISHMENT",
+        "author": "Fyodor Dostoevsky",
+        "year": 1866,
+        "genre": [
+            "Classic",
+            "Philosophical"
+        ],
+        "rating": 4.5,
+        "age": 159,
+        "antique": "This book is an antique."
+    },
+    "30": {
+        "id": 30,
+        "title": "WAR AND PEACE",
+        "author": "Leo Tolstoy",
+        "year": 1869,
+        "genre": [
+            "Classic",
+            "Historical"
+        ],
+        "rating": 4.4,
+        "age": 156,
+        "antique": "This book is an antique."
+    },
+    "31": {
+        "id": 31,
+        "title": "THE BROTHERS KARAMAZOV",
+        "author": "Fyodor Dostoevsky",
+        "year": 1880,
+        "genre": [
+            "Classic",
+            "Philosophical"
+        ],
+        "rating": 4.6,
+        "age": 145,
+        "antique": "This book is an antique."
+    },
+    "32": {
+        "id": 32,
+        "title": "LES MISERABLES",
+        "author": "Victor Hugo",
+        "year": 1862,
+        "genre": [
+            "Classic",
+            "Historical"
+        ],
+        "rating": 4.4,
+        "age": 163,
+        "antique": "This book is an antique."
+    },
+    "33": {
+        "id": 33,
+        "title": "DON QUIXOTE",
+        "author": "Miguel de Cervantes",
+        "year": 1605,
+        "genre": [
+            "Classic",
+            "Adventure"
+        ],
+        "rating": 4.1,
+        "age": 420,
+        "antique": "This book is an antique."
+    },
+    "34": {
+        "id": 34,
+        "title": "THE ODYSSEY",
+        "author": "Homer",
+        "year": -800,
+        "genre": [
+            "Epic",
+            "Poetry"
+        ],
+        "rating": 4.3,
+        "age": 2825,
+        "antique": "This book is an antique."
+    },
+    "35": {
+        "id": 35,
+        "title": "THE ILIAD",
+        "author": "Homer",
+        "year": -762,
+        "genre": [
+            "Epic",
+            "Poetry"
+        ],
+        "rating": 4.2,
+        "age": 2787,
+        "antique": "This book is an antique."
+    },
+    "36": {
+        "id": 36,
+        "title": "THE DIVINE COMEDY",
+        "author": "Dante Alighieri",
+        "year": 1320,
+        "genre": [
+            "Poetry",
+            "Classic"
+        ],
+        "rating": 4.6,
+        "age": 705,
+        "antique": "This book is an antique."
+    },
+    "37": {
+        "id": 37,
+        "title": "HAMLET",
+        "author": "William Shakespeare",
+        "year": 1603,
+        "genre": [
+            "Play",
+            "Tragedy"
+        ],
+        "rating": 4.4,
+        "age": 422,
+        "antique": "This book is an antique."
+    },
+    "38": {
+        "id": 38,
+        "title": "MACBETH",
+        "author": "William Shakespeare",
+        "year": 1606,
+        "genre": [
+            "Play",
+            "Tragedy"
+        ],
+        "rating": 4.3,
+        "age": 419,
+        "antique": "This book is an antique."
+    },
+    "39": {
+        "id": 39,
+        "title": "ROMEO AND JULIET",
+        "author": "William Shakespeare",
+        "year": 1597,
+        "genre": [
+            "Play",
+            "Romance"
+        ],
+        "rating": 4.2,
+        "age": 428,
+        "antique": "This book is an antique."
+    },
+    "40": {
+        "id": 40,
+        "title": "OLIVER TWIST",
+        "author": "Charles Dickens",
+        "year": 1837,
+        "genre": [
+            "Classic",
+            "Drama"
+        ],
+        "rating": 4.0,
+        "age": 188,
+        "antique": "This book is an antique."
+    },
+    "41": {
+        "id": 41,
+        "title": "A TALE OF TWO CITIES",
+        "author": "Charles Dickens",
+        "year": 1859,
+        "genre": [
+            "Classic",
+            "Historical"
+        ],
+        "rating": 4.4,
+        "age": 166,
+        "antique": "This book is an antique."
+    },
+    "42": {
+        "id": 42,
+        "title": "GREAT EXPECTATIONS",
+        "author": "Charles Dickens",
+        "year": 1861,
+        "genre": [
+            "Classic",
+            "Drama"
+        ],
+        "rating": 4.3,
+        "age": 164,
+        "antique": "This book is an antique."
+    },
+    "43": {
+        "id": 43,
+        "title": "DAVID COPPERFIELD",
+        "author": "Charles Dickens",
+        "year": 1850,
+        "genre": [
+            "Classic",
+            "Drama"
+        ],
+        "rating": 4.2,
+        "age": 175,
+        "antique": "This book is an antique."
+    },
+    "44": {
+        "id": 44,
+        "title": "JANE EYRE",
+        "author": "Charlotte Bront\u00eb",
+        "year": 1847,
+        "genre": [
+            "Classic",
+            "Romance"
+        ],
+        "rating": 4.4,
+        "age": 178,
+        "antique": "This book is an antique."
+    },
+    "45": {
+        "id": 45,
+        "title": "MEDITATIONS",
+        "author": "Marcus Aurelius",
+        "year": 180,
+        "genre": [
+            "Philosophy",
+            "Non-Fiction"
+        ],
+        "rating": 4.6,
+        "age": 1845,
+        "antique": "This book is an antique."
+    },
+    "46": {
+        "id": 46,
+        "title": "SAPIENS",
+        "author": "Yuval Noah Harari",
+        "year": 2011,
+        "genre": [
+            "Non-Fiction",
+            "History"
+        ],
+        "rating": 4.7,
+        "age": 14,
+        "antique": "Not an antique."
+    },
+    "47": {
+        "id": 47,
+        "title": "BELOVED",
+        "author": "Toni Morrison",
+        "year": 1987,
+        "genre": [
+            "Historical",
+            "Fiction"
+        ],
+        "rating": 4.3,
+        "age": 38,
+        "antique": "This book is an antique."
+    },
+    "48": {
+        "id": 48,
+        "title": "INVISIBLE MAN",
+        "author": "Ralph Ellison",
+        "year": 1952,
+        "genre": [
+            "Fiction",
+            "Classic"
+        ],
+        "rating": 4.2,
+        "age": 73,
+        "antique": "This book is an antique."
+    },
+    "49": {
+        "id": 49,
+        "title": "THE BELL JAR",
+        "author": "Sylvia Plath",
+        "year": 1963,
+        "genre": [
+            "Fiction",
+            "Classic"
+        ],
+        "rating": 4.1,
+        "age": 62,
+        "antique": "This book is an antique."
+    },
+    "50": {
+        "id": 50,
+        "title": "ONE HUNDRED YEARS OF SOLITUDE",
+        "author": "Gabriel Garc\u00eda M\u00e1rquez",
+        "year": 1967,
+        "genre": [
+            "Magical Realism",
+            "Fiction"
+        ],
+        "rating": 4.6,
+        "age": 58,
+        "antique": "This book is an antique."
+    },
+    "51": {
+        "id": 51,
+        "title": "LOVE IN THE TIME OF CHOLERA",
+        "author": "Gabriel Garc\u00eda M\u00e1rquez",
+        "year": 1985,
+        "genre": [
+            "Romance",
+            "Fiction"
+        ],
+        "rating": 4.3,
+        "age": 40,
+        "antique": "This book is an antique."
+    }
+}

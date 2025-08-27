@@ -1,4 +1,4 @@
-version: "3.8"
+version: '3.8'
 
 services:
   fastapi:
@@ -6,8 +6,8 @@ services:
     container_name: fastapi_app
     ports:
       - "8000:8000"   # host:container
-    env_file:
-      - .env          # load environment variables
+#    env_file:
+#      - .env          # load environment variables
     volumes:
       - .:/app        # mount local code (good for dev)
     restart: always
